@@ -37,6 +37,7 @@ while True:
     goodLetters.append(guess)
 
   if guess not in secretWord:
+    print("That letter is wrong")
     
 
   
