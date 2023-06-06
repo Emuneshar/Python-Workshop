@@ -38,6 +38,9 @@ while True:
 
   if guess not in secretWord:
     print("That letter is wrong")
+    lives = lives - 1
+    badLetters.append(guess)
+    print("You  have", lives, "lives left")
     
 
   
