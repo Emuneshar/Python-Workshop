@@ -58,7 +58,9 @@ while True:
     print("You guessed that incorrectly")
     lives = lives -1 
     print("You  have", lives, "lives left")
-    
+
+
+  if wordChecker(secretWord, goodLetters)
     
 
   
