@@ -10,7 +10,7 @@ print("2. The second player will guess a letter or the complete word")
 print("3. To use your hint, enter the word 'hint!'")
 print("*+*+*+*+*+*+*+*+*+*+*+*+*\n")
 
-
+lives = 10
 goodLetters = []
 badLetters = []
 
