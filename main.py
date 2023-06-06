@@ -41,6 +41,14 @@ while True:
     lives = lives - 1
     badLetters.append(guess)
     print("You  have", lives, "lives left")
+
+  if guess == secretWord:
+    print("You guessed the secret word correctly! You Win!")
+  else:
+    print("You guessed that incorrectly")
+    lives = lives -1 
+    print("You  have", lives, "lives left")
+    
     
 
   
