@@ -1,5 +1,15 @@
 import os
 
+def wordChecker(SW, goodLetters):
+  for x in SW:
+    if x not in goodLetters:
+      return False
+
+
+
+
+
+
 print("*+*+*+*+*+*+*+*+*+*+*+*+*\n")
 g = "Welcome to Hangman"
 g.center(200)
