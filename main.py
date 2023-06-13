@@ -60,7 +60,12 @@ while True:
     print("You  have", lives, "lives left")
 
 
-  if wordChecker(secretWord, goodLetters)
+  if wordChecker(secretWord, goodLetters) != False:
+    print("You guessed the word correctly")
+    print("The secret word was", secretWord)
+    print("You win!")
+    break
+    
     
 
   
